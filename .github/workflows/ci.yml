@@ -21,6 +21,6 @@ jobs:
           pip install Django
 
       - name: Run Django unit tests
-        working-directory: airline
+        working-directory: /airline
         run: |
           python manage.py test
